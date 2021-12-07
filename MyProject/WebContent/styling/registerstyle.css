@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url(rigister.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+form{
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 40%;
+}
+
+label{
+	background: linear-gradient(61deg, rgba(14,14,14,1)0%, rgba(54,47,88,1)55%,rgba(58,46,84,1)100%);
+	font-size: x-large;
+	color: antiquewhite;
+	animation: blinkingText 5s infinite;	
+	border-radius: 5px;
+	border-width: 5px;	
+	border-style: groove;
+	border-color: purple;
+	padding-left: 2%;
+	padding-right: 2%
+}
+
+@keyframes blinkingText{
+	0%{color: ghostwhite;}
+	30%{color: orange;}
+	60%{color: turquoise;}
+	90%{color: #eb4034}
+	100%{color: white;}
+}
+#emailHelp{
+	color: rgb(1,253,255);
+	font-size: medium;
+}
+
+.btn{
+	padding-left: 2%;
+	padding-right: 2%
+}
